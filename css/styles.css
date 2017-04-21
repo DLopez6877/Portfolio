@@ -17,7 +17,7 @@ a:hover {
   text-decoration: none
 }
 
-nav ul li {
+.buttons ul li {
   background-color: white;
   border: thick solid #30a0bc;
   border-radius: 10px;
