@@ -102,8 +102,8 @@ footer p {
 }
 
 #about-page h2 {
-    color: black;
-    font-family: cursive;
+  color: black;
+  font-family: cursive;
 }
 
 #about-page h3 {
@@ -122,6 +122,25 @@ footer p {
 }
 
 /*/about-page*/
+
+/*contact page*/
+
+#contact-body {
+  text-align: center;
+  color: grey;
+}
+
+.mail {
+  list-style: none;
+  margin: 50px;
+}
+
+.fb {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+/*/contact page*/
 
 /*media queries*/
 
@@ -150,6 +169,10 @@ footer p {
 
   .wrapper h6 {
     visibility: hidden;
+  }
+
+  .list-inline-item {
+    margin-left: 0px;
   }
 
 }
