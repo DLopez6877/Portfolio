@@ -35,7 +35,7 @@ img {
 
 /*gallery*/
 
-.gallery li {
+.wrapper {
   list-style: none;
   float: left;
   width: 42%;
@@ -43,19 +43,30 @@ img {
   color: blue;
   text-align: center;
   margin-bottom: 5%;
-  padding: 0px 10px;
+  padding: 30px 30px;
+  border: thick solid #5bc0de;
+  border-radius: 30px;
+  background-color: #def3ff;
 }
 
-.gallery li p {
+.wrapper p {
+  padding: 10px;
+  background-color: #bde;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.wrapper img {
+  border-radius: 20px;
+}
+
+.wrapper ul {
   padding: 10px;
   background-color: #bde;
   margin-bottom: 0px;
   margin-top: 10px;
   border-radius: 10px;
-}
-
-.gallery li img {
-  border-radius: 20px;
 }
 
 /*/gallery*/
@@ -65,6 +76,7 @@ img {
 footer {
     text-align: right;
     float:right;
+    margin-right: 20px;
 }
 footer p {
   font-size: .5em;
