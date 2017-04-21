@@ -3,7 +3,7 @@ body {
   color: blue;
 }
 
-nav a:hover {
+a:hover {
   color: orange;
   text-decoration: none
 }
@@ -12,6 +12,11 @@ nav ul li {
   background-color: white;
   border: thin solid #5bc0de;
   border-radius: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 #headshot {
@@ -24,4 +29,21 @@ nav ul li {
 .list-inline-item {
   padding: 0px 10px;
   margin: 0px 20px;
+}
+
+.gallery li {
+  list-style: none;
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  color: blue;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.gallery li p {
+  padding: 10px;
+  background-color: #bde;
+  margin-bottom: 0px;
+  margin-top: 5px;
 }
