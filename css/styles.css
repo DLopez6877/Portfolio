@@ -93,6 +93,36 @@ footer p {
 
 /*/footer*/
 
+/*about-page*/
+
+#about-page {
+  text-align: center;
+  color: grey;
+  font-family: monospace;
+}
+
+#about-page h2 {
+    color: black;
+    font-family: cursive;
+}
+
+#about-page h3 {
+  text-decoration: underline;
+  color: #538290;
+  margin: 15px;
+}
+
+#interests li {
+  text-align: left;
+  margin-left: 15%;
+}
+
+.employer {
+  font-weight: bold;
+}
+
+/*/about-page*/
+
 /*media queries*/
 
 @media screen and (max-width: 600px) {
