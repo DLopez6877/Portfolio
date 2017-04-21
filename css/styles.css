@@ -1,0 +1,27 @@
+body {
+  background-color: #f5f5f5;
+  color: blue;
+}
+
+nav a:hover {
+  color: orange;
+  text-decoration: none
+}
+
+nav ul li {
+  background-color: white;
+  border: thin solid #5bc0de;
+  border-radius: 10px;
+}
+
+#headshot {
+  border-radius: 200px;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.list-inline-item {
+  padding: 0px 10px;
+  margin: 0px 20px;
+}
