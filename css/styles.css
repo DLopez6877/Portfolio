@@ -78,3 +78,21 @@ footer p {
 }
 
 /*/footer*/
+
+/*media queries*/
+
+@media screen and (max-width: 600px) {
+
+  .gallery li {
+    list-style: none;
+    float: left;
+    width: 90%;
+    margin: 5%;
+    color: blue;
+    text-align: center;
+    margin-bottom: 5%;
+    padding: 0px 10px;
+  }
+
+}
+/*/media queries*/
