@@ -108,5 +108,19 @@ footer p {
     padding: 10px 10px;
   }
 
+  .wrapper ul {
+      background-color: #def3ff;
+  }
+
+  .wrapper ul li {
+    padding: 0%;
+    margin: 0%;
+    visibility: hidden;
+  }
+
+  .wrapper h6 {
+    visibility: hidden;
+  }
+
 }
 /*/media queries*/
